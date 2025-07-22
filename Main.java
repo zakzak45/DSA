@@ -9,9 +9,7 @@ public class Main{
        System.out.println(node);
 
 
-       while(head!=null){
-        
-       }
+    
 
     }
 
