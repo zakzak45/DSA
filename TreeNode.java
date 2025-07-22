@@ -1,15 +1,11 @@
-public class TreeNode{
- int value;
- TreeNode left;
- TreeNode right;
+public class TreeNode<T> {
+    T value;
+    TreeNode<T> left ,right;
 
+    TreeNode(T value){
+        this.value =value;
+        this.left =null;
+        this.right =null;
+    }
 
- public void TreeNode(){
-    this.value =value;
-    this.left=null;
-    this.right=null;
- }
 }
-
-//basic treenode in java
-            
