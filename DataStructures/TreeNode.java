@@ -1,30 +1,17 @@
-<<<<<<< HEAD
-//basic structure of a tree node
-public class TreeNode<T>{
-   T value;
-   TreeNode left , right;
-=======
-public class TreeNode<T> {
-    T value;
-    TreeNode<T> left ,right;
->>>>>>> origin/main
-
-    TreeNode(T value){
-        this.value =value;
-        this.left =null;
-        this.right =null;
-    }
-
-<<<<<<< HEAD
-   TreeNode(T value){
-   this.value=value;
-   this.left =null;
-   this.right=null;
+public class TreeNode {
+   int val;
+   TreeNode left;
+   TreeNode right;
+   
+   
+   public TreeNode(int val){
+    this.val =val;
+    this.left =null;
+    this.right =null;
    }
-
-
-
 }
-=======
-}
->>>>>>> origin/main
+
+//basic treenode implemnation
+
+
+
